@@ -34,3 +34,4 @@ sheet.forEach((element) => {
 
 
 fs.writeFileSync(path.join(__dirname,'db.json'),JSON.stringify(database))
+fs.writeFileSync(path.join(__dirname,'db_initial.json'),JSON.stringify(database))
