@@ -105,7 +105,7 @@ class Server {
         return;
     }
     async spectate() {
-        this.sock = new WebSocket(`ws://${location.hostname}:9090`);
+        this.sock = new WebSocket(`ws://tank-tactics-server.onrender.com`);
         await new Promise((res, rej) => { this.sock.onopen = res; });
         this.sock.onclose = _ => location.reload();
         this.sock.send(JSON.stringify({
