@@ -24,7 +24,8 @@
     "license": "ISC",
     "dependencies": {
         "p5": "^1.4.0",
-        "ws": "^8.2.0"
+        "ws": "^8.2.0",
+        "convert-css-color-name-to-hex": "^0.1.1"
     },
     "devDependencies": {
         "nodemon": "^2.0.12"
